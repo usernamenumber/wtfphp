@@ -8,3 +8,5 @@
 1. Put head through monitor
 
 Brought to you by one of my Moodle modules suddenly crashing on every load because an update to Moodle introduced a file that happened to have the same name as one used in the module. 
+
+Fortunately, this behavior is well-documented... in [a user-contributed comment](http://php.net/manual/en/function.include.php#107685).
