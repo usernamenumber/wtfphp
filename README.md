@@ -16,3 +16,4 @@ Workaround (also from the user comments):
 ```php
 require(realpath(dirname(__FILE__) . "/required.php");
 ```
+Ah, PHP, you have the grace of a gazelle that just successfully swallowed a hippo. 
