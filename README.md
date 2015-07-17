@@ -1,4 +1,4 @@
-# WTeffingF, PHP??
+# WTeffingF, PHP?
 ## Instructions
 1. Install `php-cli`, if needed.
 1. `cat runme.php`  "Ok, this includes foo/main.php"
