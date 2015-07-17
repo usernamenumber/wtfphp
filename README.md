@@ -10,10 +10,10 @@
 
 Brought to you by one of my Moodle modules suddenly crashing on every load because an update to Moodle introduced a file that happened to have the same name as one used in the module. 
 
-Fortunately, this behavior is well-documented... in [a user-contributed comment](http://php.net/manual/en/function.include.php#107685) to the official docs (probably somewhere else, too, but right now I really don't care). Ugh.
+Fortunately, this behavior is well-documented... in [a user-contributed comment](http://php.net/manual/en/function.include.php#107685) to the official docs (probably somewhere else, too, but right now I really don't care. UGH).
 
 Workaround (also from the user comments):
 ```php
 require(realpath(dirname(__FILE__) . "/required.php"));
 ```
-Ah, PHP, you have the grace of a gazelle that just successfully swallowed a hippo. 
+PHP, you have the grace of a gazelle that just successfully swallowed a hippo. 
